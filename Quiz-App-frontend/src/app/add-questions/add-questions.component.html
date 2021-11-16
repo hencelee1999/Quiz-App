@@ -1,0 +1,18 @@
+<div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Question</span>
+    <input type="text" #questionText (keyup)="0" class="form-control" placeholder="Enter Question" aria-label="Question" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+    <span class="array" id="basic-addon1">Options</span>
+    <input type="array" #options (keyup)="0" class="form-control" placeholder="Enter Options " aria-label="options" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Correct Answer</span>
+    <input type="number" #correct (keyup)="0" class="form-control" placeholder="Enter Answer" aria-label="answer" aria-describedby="basic-addon1">
+  </div>
+  <!-- <div>
+    <button class="btn btn-primary" (click)="addQuestion(questionText.value,options.value,  correct.value)" routerLink="/home" >Add Question</button>
+  </div> -->
+   <div>
+    <button class="btn btn-primary"  routerLink="/home"  >Add Question</button>
+  </div>
